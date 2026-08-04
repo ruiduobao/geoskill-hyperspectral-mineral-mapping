@@ -1,0 +1,28 @@
+{
+  "source": "synthetic",
+  "library": "usgs",
+  "continuum_removal": true,
+  "n_bands": 43,
+  "shape": [
+    64,
+    64
+  ],
+  "minerals": [
+    "kaolinite",
+    "chlorite",
+    "calcite"
+  ],
+  "class_counts": {
+    "0": 1344,
+    "1": 1344,
+    "2": 1408
+  },
+  "abundance": {
+    "kaolinite": 0.328125,
+    "chlorite": 0.328125,
+    "calcite": 0.34375
+  },
+  "mean_best_angle_deg": 0.49369779229164124,
+  "mean_confidence": 0.898715078830719,
+  "synthetic_overall_accuracy": 1.0
+}

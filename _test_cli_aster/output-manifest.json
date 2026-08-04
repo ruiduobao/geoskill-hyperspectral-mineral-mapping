@@ -1,0 +1,91 @@
+{
+  "skill": "hyperspectral-mineral-mapping",
+  "skill_version": "1.0.0",
+  "command": "hyperspectral-mineral-mapping --bbox 116 39 117 40 --synthetic --library aster --output-dir ./_test_cli_aster --quiet",
+  "started_at": "2026-08-03T17:39:44.074960Z",
+  "finished_at": "2026-08-03T17:39:44.209717Z",
+  "exit_code": 0,
+  "inputs": {
+    "input": null,
+    "library": "aster",
+    "continuum_removal": false,
+    "synthetic": true,
+    "bbox": [
+      116.0,
+      39.0,
+      117.0,
+      40.0
+    ]
+  },
+  "aoi": null,
+  "datasets": [],
+  "outputs": [
+    {
+      "path": "./_test_cli_aster\\mineral_map.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": -1.0,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_aster\\confidence.tif",
+      "kind": "raster",
+      "size_bytes": null,
+      "crs_epsg": 4326,
+      "bbox_wgs84": [
+        116.0,
+        39.0,
+        117.0,
+        40.0
+      ],
+      "resolution_m": null,
+      "nodata": 0.0,
+      "band_count": 1,
+      "feature_count": null,
+      "row_count": null
+    },
+    {
+      "path": "./_test_cli_aster\\mineral_report.json",
+      "kind": "json",
+      "size_bytes": null,
+      "crs_epsg": null,
+      "bbox_wgs84": null,
+      "resolution_m": null,
+      "nodata": null,
+      "band_count": null,
+      "feature_count": null,
+      "row_count": null
+    }
+  ],
+  "qa": {
+    "source": "synthetic",
+    "library": "aster",
+    "n_bands": 43,
+    "mean_confidence": 0.9165894389152527,
+    "mean_best_angle_deg": 0.44321689009666443,
+    "abundance": {
+      "kaolinite": 0.328125,
+      "chlorite": 0.328125,
+      "calcite": 0.34375
+    },
+    "n_valid_pixels": 176128,
+    "n_total_pixels": 4096,
+    "input_nodata": null,
+    "synthetic_overall_accuracy": 1.0
+  },
+  "software": {
+    "python": "3.9.21",
+    "skill": "hyperspectral-mineral-mapping"
+  },
+  "error": null
+}
