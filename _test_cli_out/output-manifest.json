@@ -2,8 +2,8 @@
   "skill": "hyperspectral-mineral-mapping",
   "skill_version": "1.0.0",
   "command": "hyperspectral-mineral-mapping --bbox 116 39 117 40 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T17:39:43.804169Z",
-  "finished_at": "2026-08-03T17:39:43.935321Z",
+  "started_at": "2026-11-02T15:15:56.622316Z",
+  "finished_at": "2026-11-02T15:15:56.844101Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -21,7 +21,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\mineral_map.tif",
+      "path": "./_test_cli_out/mineral_map.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -38,7 +38,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\confidence.tif",
+      "path": "./_test_cli_out/confidence.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -55,7 +55,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\mineral_report.json",
+      "path": "./_test_cli_out/mineral_report.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -84,7 +84,7 @@
     "synthetic_overall_accuracy": 1.0
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "hyperspectral-mineral-mapping"
   },
   "error": null
